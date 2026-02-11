@@ -1,3 +1,5 @@
+##### Serper #####
+
 # import asyncio
 # from dotenv import load_dotenv
 # # We import from the FOLDER name, which works because of __init__.py
@@ -22,7 +24,7 @@
 #     asyncio.run(main())
 
 
-###DuckDuckgo testing
+##### DuckDuckgo testing #####
 
 
 # import asyncio
@@ -43,7 +45,7 @@
 
 
 
-#bing testing
+##### bing testing #####
 
 import asyncio
 from search_wrapper import BingSearch

@@ -41,7 +41,7 @@ class GoogleSearchFromSerper(BaseSearchEngine):
         text_data = results[0]
         image_data = results[1]
 
-        # ERROR HANDLING FIX:
+        
         # If an error occurred, we log it or return it so you can see it.
         if isinstance(text_data, Exception):
             print(f"Error fetching text: {text_data}")

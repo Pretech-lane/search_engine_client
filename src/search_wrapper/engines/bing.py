@@ -31,16 +31,15 @@ class BingSearch(BaseSearchEngine):
         page = await context.new_page()
 
         try:
-            # 1. Fetch Organic Results
+            # Fetch Organic Results
             organic_results = await self._fetch_organic(page, query, total_search_result)
             
-            # 2. Fetch Images (if requested)
+            # Fetch Images (if requested)
             image_results = []
             if total_image_results > 0:
                 image_results = await self._fetch_images(context, query, total_image_results)
 
-            # 3. (Optional) Fetch Files - specific to your use case
-            # I included this logic since it was in your original code
+            # Fetch Files - specific to your use case (Optional)
             file_results = await self._fetch_files(context, query)
 
             return {

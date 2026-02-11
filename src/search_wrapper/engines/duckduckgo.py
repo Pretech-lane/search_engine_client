@@ -91,7 +91,7 @@ class DuckDuckGoSearch(BaseSearchEngine):
     async def close(self):
         await self.client.aclose()
 
-    # --- THE MISSING PART IS HERE ---
+    
     async def __aenter__(self):
         return self
 

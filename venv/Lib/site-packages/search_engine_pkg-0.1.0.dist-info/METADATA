@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: search_engine_pkg
+Version: 0.1.0
+Summary: A unified wrapper for search engines like Serper, DuckDuckGo, etc.
+Project-URL: Homepage, https://github.com/yourusername/search_engine_pkg
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: httpx>=0.20.0
+Requires-Dist: beautifulsoup4
+Requires-Dist: playwright
